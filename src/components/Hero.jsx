@@ -8,8 +8,8 @@ import spaceVideo from '../assets/globe.mp4'
 const Hero = () => {
   return (
     <div className='hero'>
-        <video autoplay loop muted id='video'>
-            <source src={spaceVideo} type='video.mp4' />
+        <video autoPlay loop muted id='video'>
+            <source src={spaceVideo} type='video/mp4' />
         </video>
         <div className='content'>
             <h1>Galaxy. Travel.</h1>
